@@ -1,6 +1,6 @@
-# Documentation Strategy for @my-org/ts-serverless
+# Documentation Strategy for @10xsai/ts-serverless
 
-This document outlines the comprehensive documentation strategy for the `@my-org/ts-serverless` package, designed to serve different types of users and use cases effectively.
+This document outlines the comprehensive documentation strategy for the `@10xsai/ts-serverless` package, designed to serve different types of users and use cases effectively.
 
 ## 🎯 **Documentation Goals**
 
@@ -404,4 +404,4 @@ Based on this strategy, here are the recommended next steps:
 3. Advanced examples and use cases
 4. Integration with broader ecosystem
 
-This documentation strategy ensures that the `@my-org/ts-serverless` provides a world-class developer experience with comprehensive, maintainable, and user-focused documentation.
+This documentation strategy ensures that the `@10xsai/ts-serverless` provides a world-class developer experience with comprehensive, maintainable, and user-focused documentation.

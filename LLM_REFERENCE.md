@@ -1,10 +1,10 @@
-# @my-org/ts-serverless - LLM Reference Guide
+# @10xsai/ts-serverless - LLM Reference Guide
 
-This is a comprehensive reference guide for Large Language Models to understand and use the `@my-org/ts-serverless` library effectively.
+This is a comprehensive reference guide for Large Language Models to understand and use the `@10xsai/ts-serverless` library effectively.
 
 ## 🎯 Framework Overview
 
-`@my-org/ts-serverless` is an enterprise-grade TypeScript framework built with Drizzle ORM, optimized for Cloudflare Workers and serverless environments. It provides a complete foundation for building scalable, type-safe applications with consistent patterns.
+`@10xsai/ts-serverless` is an enterprise-grade TypeScript framework built with Drizzle ORM, optimized for Cloudflare Workers and serverless environments. It provides a complete foundation for building scalable, type-safe applications with consistent patterns.
 
 ## 🏗 Core Architecture
 
@@ -22,7 +22,7 @@ This is a comprehensive reference guide for Large Language Models to understand 
 
 ```typescript
 // Install the framework
-npm install @my-org/ts-serverless drizzle-orm zod nanoid
+npm install @10xsai/ts-serverless drizzle-orm zod nanoid
 
 // Main import pattern
 import {
@@ -49,7 +49,7 @@ import {
 
   // Types
   type EntityId, type BaseEntity, type PaginationOptions
-} from '@my-org/ts-serverless';
+} from '@10xsai/ts-serverless';
 ```
 
 ## 🎨 Core Patterns & Usage Examples
@@ -57,7 +57,7 @@ import {
 ### 1. Creating Entities
 
 ```typescript
-import { Entity, type EntityId } from "@my-org/ts-serverless";
+import { Entity, type EntityId } from "@10xsai/ts-serverless";
 
 // Define your entity class
 export class User extends Entity {
@@ -115,7 +115,7 @@ import {
   BaseRepository,
   type PaginationOptions,
   type FilterCriteria,
-} from "@my-org/ts-serverless";
+} from "@10xsai/ts-serverless";
 import { eq, like, and } from "drizzle-orm";
 
 export class UserRepository extends BaseRepository<User> {
@@ -187,7 +187,7 @@ import {
   BaseService,
   ValidationError,
   NotFoundError,
-} from "@my-org/ts-serverless";
+} from "@10xsai/ts-serverless";
 import { z } from "zod";
 
 // Validation schemas
@@ -306,7 +306,7 @@ export class UserService extends BaseService {
 ### 4. API Handlers (Cloudflare Workers)
 
 ```typescript
-import { createResponse, handleError } from "@my-org/ts-serverless";
+import { createResponse, handleError } from "@10xsai/ts-serverless";
 
 export async function handleUserRequests(
   request: Request,

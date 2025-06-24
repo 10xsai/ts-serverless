@@ -1,6 +1,6 @@
-# @my-org/ts-serverless Documentation
+# @10xsai/ts-serverless Documentation
 
-Welcome to the comprehensive documentation for `@my-org/ts-serverless`. This documentation is organized following the [Diátaxis](https://diataxis.fr/) framework to provide different types of information for different needs.
+Welcome to the comprehensive documentation for `@10xsai/ts-serverless`. This documentation is organized following the [Diátaxis](https://diataxis.fr/) framework to provide different types of information for different needs.
 
 ## 🎯 **Quick Navigation**
 
@@ -90,7 +90,7 @@ Explore complete working examples:
 
 We welcome contributions to improve the documentation:
 
-1. **Report Issues**: Found something unclear? [Open an issue](https://github.com/my-org/my-org.com/issues)
+1. **Report Issues**: Found something unclear? [Open an issue](https://github.com/10xsai/10xsai.com/issues)
 2. **Suggest Improvements**: Have ideas for better explanations? Let us know!
 3. **Contribute Examples**: Share your working examples with the community
 4. **Fix Typos**: Small improvements are always welcome
@@ -103,8 +103,8 @@ If you can't find what you're looking for:
 
 - **Search the docs**: Use Ctrl+F to search this documentation
 - **Check examples**: Look at working examples for patterns
-- **Ask the community**: [GitHub Discussions](https://github.com/my-org/my-org.com/discussions)
-- **Report issues**: [GitHub Issues](https://github.com/my-org/my-org.com/issues)
+- **Ask the community**: [GitHub Discussions](https://github.com/10xsai/10xsai.com/discussions)
+- **Report issues**: [GitHub Issues](https://github.com/10xsai/10xsai.com/issues)
 
 ## 📊 **Documentation Status**
 
@@ -122,4 +122,4 @@ If you can't find what you're looking for:
 
 ---
 
-**Found this documentation helpful?** Give us a ⭐ on [GitHub](https://github.com/my-org/my-org.com)!
+**Found this documentation helpful?** Give us a ⭐ on [GitHub](https://github.com/10xsai/10xsai.com)!

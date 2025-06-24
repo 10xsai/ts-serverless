@@ -1,4 +1,4 @@
-# @my-org/ts-serverless
+# @10xsai/ts-serverless
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
 [![Cloudflare Workers](https://img.shields.io/badge/Cloudflare-Workers-orange.svg)](https://workers.cloudflare.com/)
@@ -7,7 +7,7 @@
 
 > **Enterprise-grade TypeScript framework built for Cloudflare Workers and serverless environments**
 
-`@my-org/ts-serverless` is a comprehensive, lightweight framework designed specifically for building robust, scalable applications in serverless environments. Built with TypeScript, Drizzle ORM, and optimized for Cloudflare Workers, it provides enterprise-grade patterns while maintaining optimal performance for edge computing.
+`@10xsai/ts-serverless` is a comprehensive, lightweight framework designed specifically for building robust, scalable applications in serverless environments. Built with TypeScript, Drizzle ORM, and optimized for Cloudflare Workers, it provides enterprise-grade patterns while maintaining optimal performance for edge computing.
 
 ## ✨ **Key Features**
 
@@ -25,11 +25,11 @@
 ### Installation
 
 ```bash
-npm install @my-org/ts-serverless
+npm install @10xsai/ts-serverless
 # or
-pnpm add @my-org/ts-serverless
+pnpm add @10xsai/ts-serverless
 # or
-yarn add @my-org/ts-serverless
+yarn add @10xsai/ts-serverless
 ```
 
 ### Basic Usage
@@ -40,7 +40,7 @@ import {
   BaseRepository,
   BaseService,
   createApiResponse,
-} from "@my-org/ts-serverless";
+} from "@10xsai/ts-serverless";
 
 // Define your entity
 class User extends Entity {
@@ -264,7 +264,7 @@ The framework includes built-in security features:
 - **Audit Logging**: Built-in audit trails for compliance
 
 ```typescript
-import { sanitizeInput, validateSecure } from "@my-org/ts-serverless";
+import { sanitizeInput, validateSecure } from "@10xsai/ts-serverless";
 
 // Sanitize user input
 const cleanInput = sanitizeInput.html(userInput);
@@ -290,17 +290,17 @@ We welcome contributions! Please see our [Contributing Guide](./CONTRIBUTING.md)
 
 ```bash
 # Clone the repository
-git clone https://github.com/my-org/my-org.com.git
-cd my-org.com
+git clone https://github.com/10xsai/10xsai.com.git
+cd 10xsai.com
 
 # Install dependencies
 pnpm install
 
 # Run tests
-nx test @my-org/ts-serverless
+nx test @10xsai/ts-serverless
 
 # Build the package
-nx build @my-org/ts-serverless
+nx build @10xsai/ts-serverless
 ```
 
 ## 📝 **License**
@@ -310,8 +310,8 @@ MIT License - see the [LICENSE](./LICENSE) file for details.
 ## 🆘 **Support**
 
 - 📖 **Documentation**: [Full documentation](./docs/)
-- 💬 **Issues**: [GitHub Issues](https://github.com/my-org/my-org.com/issues)
-- 🗨️ **Discussions**: [GitHub Discussions](https://github.com/my-org/my-org.com/discussions)
+- 💬 **Issues**: [GitHub Issues](https://github.com/10xsai/10xsai.com/issues)
+- 🗨️ **Discussions**: [GitHub Discussions](https://github.com/10xsai/10xsai.com/discussions)
 
 ## 🗺️ **Roadmap**
 

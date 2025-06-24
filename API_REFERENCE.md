@@ -1,4 +1,4 @@
-# @my-org/ts-serverless - Complete API Reference
+# @10xsai/ts-serverless - Complete API Reference
 
 ## 📚 Base Classes
 
@@ -665,4 +665,4 @@ interface CorsOptions {
 }
 ```
 
-This comprehensive API reference provides all the details needed to effectively use the `@my-org/ts-serverless` library.
+This comprehensive API reference provides all the details needed to effectively use the `@10xsai/ts-serverless` library.

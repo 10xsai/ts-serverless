@@ -1,6 +1,6 @@
-# Publishing Guide for @my-org/ts-serverless
+# Publishing Guide for @10xsai/ts-serverless
 
-This guide walks you through publishing the `@my-org/ts-serverless` package to npm.
+This guide walks you through publishing the `@10xsai/ts-serverless` package to npm.
 
 ## Pre-Publishing Checklist
 
@@ -14,7 +14,7 @@ This guide walks you through publishing the `@my-org/ts-serverless` package to n
 
 ✅ **Build & Validation**
 
-- [x] Package builds successfully with `nx build @my-org/ts-serverless`
+- [x] Package builds successfully with `nx build @10xsai/ts-serverless`
 - [x] Package contents validated with `npm pack --dry-run`
 - [x] Total package size: 41.8 kB (unpacked: 201.2 kB)
 - [x] 108 files included in the package
@@ -26,7 +26,7 @@ This guide walks you through publishing the `@my-org/ts-serverless` package to n
 Ensure you have:
 
 - An npm account with publishing permissions
-- Access to publish under the `@my-org` scope
+- Access to publish under the `@10xsai` scope
 - Node.js >= 18.0.0 installed
 
 ### 2. Authentication
@@ -49,7 +49,7 @@ Ensure the package is built with the latest changes:
 
 ```bash
 # From workspace root
-nx build @my-org/ts-serverless
+nx build @10xsai/ts-serverless
 
 # Or from package directory
 cd packages/ts-serverless
@@ -84,7 +84,7 @@ npm publish
 
 ```bash
 # From workspace root
-nx run @my-org/ts-serverless:nx-release-publish
+nx run @10xsai/ts-serverless:nx-release-publish
 ```
 
 #### Option C: Dry Run First
@@ -99,13 +99,13 @@ npm publish --dry-run
 After publishing, verify the package:
 
 ```bash
-npm view @my-org/ts-serverless
+npm view @10xsai/ts-serverless
 ```
 
 Install it in a test project:
 
 ```bash
-npm install @my-org/ts-serverless
+npm install @10xsai/ts-serverless
 ```
 
 ## Package Details
@@ -128,7 +128,7 @@ npm install @my-org/ts-serverless
 
 ### Package Metadata
 
-- **Name**: `@my-org/ts-serverless`
+- **Name**: `@10xsai/ts-serverless`
 - **Version**: `0.1.0`
 - **License**: MIT
 - **Main**: `./dist/index.js`
@@ -167,10 +167,10 @@ npm login
 
 ### Permission Errors
 
-Ensure you have permission to publish under the `@my-org` scope:
+Ensure you have permission to publish under the `@10xsai` scope:
 
 ```bash
-npm access list packages @my-org
+npm access list packages @10xsai
 ```
 
 ### Build Issues
@@ -179,7 +179,7 @@ Clean and rebuild:
 
 ```bash
 nx reset
-nx build @my-org/ts-serverless
+nx build @10xsai/ts-serverless
 ```
 
 ### Version Conflicts

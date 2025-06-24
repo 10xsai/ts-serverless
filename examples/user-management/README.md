@@ -1,6 +1,6 @@
 # User Management System Example
 
-This example demonstrates how to build a complete user management system using `@my-org/ts-serverless`. It showcases all the core features including entities, repositories, services, validation, error handling, and API endpoints.
+This example demonstrates how to build a complete user management system using `@10xsai/ts-serverless`. It showcases all the core features including entities, repositories, services, validation, error handling, and API endpoints.
 
 ## 🎯 **What You'll Learn**
 
@@ -47,7 +47,7 @@ user-management/
 ### Installation
 
 ```bash
-npm install @my-org/ts-serverless drizzle-orm zod nanoid
+npm install @10xsai/ts-serverless drizzle-orm zod nanoid
 npm install -D @types/node typescript wrangler drizzle-kit
 ```
 
@@ -68,7 +68,7 @@ wrangler d1 execute user-management-db --file=./src/database/migrations/001_crea
 
 ```typescript
 // src/entities/user.entity.ts
-import { Entity, type EntityId } from "@my-org/ts-serverless";
+import { Entity, type EntityId } from "@10xsai/ts-serverless";
 
 export type UserRole = "user" | "admin" | "moderator";
 export type UserStatus = "active" | "inactive" | "suspended";
@@ -234,7 +234,7 @@ import {
   type SearchResult,
   NotFoundError,
   generateId,
-} from "@my-org/ts-serverless";
+} from "@10xsai/ts-serverless";
 import { DrizzleD1Database } from "drizzle-orm/d1";
 import { eq, like, and, desc, asc, count, or } from "drizzle-orm";
 import {
@@ -565,7 +565,7 @@ import {
   ValidationError,
   NotFoundError,
   ForbiddenError,
-} from "@my-org/ts-serverless";
+} from "@10xsai/ts-serverless";
 import {
   User,
   type CreateUserData,
@@ -741,7 +741,7 @@ import {
   handleError,
   type ApiResponse,
   ValidationError,
-} from "@my-org/ts-serverless";
+} from "@10xsai/ts-serverless";
 import { UserService } from "../services/user.service";
 import {
   CreateUserSchema,

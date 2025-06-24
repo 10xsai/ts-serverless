@@ -1,6 +1,6 @@
-# Getting Started with @my-org/ts-serverless
+# Getting Started with @10xsai/ts-serverless
 
-Welcome to `@my-org/ts-serverless`! This guide will help you get up and running quickly with the framework, whether you're building a simple API or a complex enterprise application.
+Welcome to `@10xsai/ts-serverless`! This guide will help you get up and running quickly with the framework, whether you're building a simple API or a complex enterprise application.
 
 ## 📋 **Prerequisites**
 
@@ -15,13 +15,13 @@ Welcome to `@my-org/ts-serverless`! This guide will help you get up and running 
 
 ```bash
 # Using npm
-npm install @my-org/ts-serverless
+npm install @10xsai/ts-serverless
 
 # Using pnpm (recommended)
-pnpm add @my-org/ts-serverless
+pnpm add @10xsai/ts-serverless
 
 # Using yarn
-yarn add @my-org/ts-serverless
+yarn add @10xsai/ts-serverless
 ```
 
 ### Peer Dependencies
@@ -67,7 +67,7 @@ Let's build a simple user management API step by step.
 
 ```typescript
 // src/entities/user.entity.ts
-import { Entity, type EntityId } from "@my-org/ts-serverless";
+import { Entity, type EntityId } from "@10xsai/ts-serverless";
 
 export interface CreateUserData {
   email: string;
@@ -150,7 +150,7 @@ import {
   type SearchQuery,
   type SearchResult,
   NotFoundError,
-} from "@my-org/ts-serverless";
+} from "@10xsai/ts-serverless";
 import {
   User,
   type CreateUserData,
@@ -310,7 +310,7 @@ import {
   type EntityId,
   ConflictError,
   ValidationError,
-} from "@my-org/ts-serverless";
+} from "@10xsai/ts-serverless";
 import {
   User,
   type CreateUserData,
@@ -383,7 +383,7 @@ import {
   createApiResponse,
   handleError,
   type ApiResponse,
-} from "@my-org/ts-serverless";
+} from "@10xsai/ts-serverless";
 import { UserService } from "./services/user.service";
 import { UserRepository } from "./repositories/user.repository";
 import { drizzle } from "drizzle-orm/d1";
@@ -578,5 +578,5 @@ wrangler d1 list
 Need help? Check out:
 
 - [FAQ](./faq.md)
-- [GitHub Issues](https://github.com/my-org/my-org.com/issues)
-- [Community Discussions](https://github.com/my-org/my-org.com/discussions)
+- [GitHub Issues](https://github.com/10xsai/10xsai.com/issues)
+- [Community Discussions](https://github.com/10xsai/10xsai.com/discussions)

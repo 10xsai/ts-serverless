@@ -1,6 +1,6 @@
 # Architecture Overview
 
-The `@my-org/ts-serverless` is built on proven enterprise patterns adapted for serverless environments. This document explains the architectural decisions, design patterns, and how the various components work together.
+The `@10xsai/ts-serverless` is built on proven enterprise patterns adapted for serverless environments. This document explains the architectural decisions, design patterns, and how the various components work together.
 
 ## 🏗️ **Architectural Principles**
 

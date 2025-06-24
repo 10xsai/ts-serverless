@@ -1,6 +1,6 @@
-# How to Use @my-org/ts-serverless as LLM Reference
+# How to Use @10xsai/ts-serverless as LLM Reference
 
-This guide explains the best practices for providing the `@my-org/ts-serverless` as reference to Large Language Models for creating new libraries or applications.
+This guide explains the best practices for providing the `@10xsai/ts-serverless` as reference to Large Language Models for creating new libraries or applications.
 
 ## 🎯 Overview
 
@@ -31,7 +31,7 @@ Include the package.json to show dependencies and structure:
 
 ```json
 {
-  "name": "@my-org/ts-serverless",
+  "name": "@10xsai/ts-serverless",
   "version": "0.0.1",
   "dependencies": {
     "drizzle-orm": "^0.44.2",
@@ -58,7 +58,7 @@ Include the package.json to show dependencies and structure:
 Share the main export structure:
 
 ```typescript
-// Core exports available from '@my-org/ts-serverless'
+// Core exports available from '@10xsai/ts-serverless'
 export {
   // Base classes
   Entity,
@@ -96,7 +96,7 @@ export {
   type EntityId,
   type BaseEntity,
   type PaginationOptions,
-} from "@my-org/ts-serverless";
+} from "@10xsai/ts-serverless";
 ```
 
 ## 🚀 Sample LLM Prompt Template
@@ -104,7 +104,7 @@ export {
 Here's a template for requesting a new library based on the core framework:
 
 ```markdown
-I want to create a new library called `@my-org/[YOUR_LIBRARY]` that uses the `@my-org/ts-serverless`.
+I want to create a new library called `@10xsai/[YOUR_LIBRARY]` that uses the `@10xsai/ts-serverless`.
 
 **Requirements:**
 
@@ -229,7 +229,7 @@ Request these quality aspects:
 When creating libraries for complex domains:
 
 ```markdown
-Context: I'm building a [DOMAIN] management system using @my-org/ts-serverless.
+Context: I'm building a [DOMAIN] management system using @10xsai/ts-serverless.
 
 Domain Requirements:
 
@@ -251,7 +251,7 @@ Please follow the core framework patterns and create:
 When building microservices:
 
 ```markdown
-Context: Creating a microservice using @my-org/ts-serverless for Cloudflare Workers.
+Context: Creating a microservice using @10xsai/ts-serverless for Cloudflare Workers.
 
 Service Requirements:
 
@@ -269,7 +269,7 @@ Architecture: Follow the core framework patterns with service-specific customiza
 When building event-driven systems:
 
 ```markdown
-Context: Building an event-driven service with @my-org/ts-serverless.
+Context: Building an event-driven service with @10xsai/ts-serverless.
 
 Event Requirements:
 
@@ -285,7 +285,7 @@ Pattern: Extend the base framework with event handling capabilities while mainta
 
 When receiving LLM output, verify:
 
-- [ ] Uses proper imports from `@my-org/ts-serverless`
+- [ ] Uses proper imports from `@10xsai/ts-serverless`
 - [ ] Extends base classes correctly (Entity, BaseRepository, BaseService)
 - [ ] Implements proper TypeScript types with brand types
 - [ ] Includes comprehensive validation schemas
@@ -323,19 +323,19 @@ Use this template to get started quickly:
 ````markdown
 # [Your Library Name]
 
-Built with `@my-org/ts-serverless` following enterprise patterns.
+Built with `@10xsai/ts-serverless` following enterprise patterns.
 
 ## Installation
 
 ```bash
-npm install @my-org/[your-library] @my-org/ts-serverless
+npm install @10xsai/[your-library] @10xsai/ts-serverless
 ```
 ````
 
 ## Quick Start
 
 ```typescript
-import { [YourService] } from '@my-org/[your-library]';
+import { [YourService] } from '@10xsai/[your-library]';
 
 // Initialize service
 const service = new [YourService](dependencies);
