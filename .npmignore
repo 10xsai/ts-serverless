@@ -1,0 +1,48 @@
+# Source files
+src/
+tests/
+*.spec.ts
+*.test.ts
+
+# Development files
+tsconfig.json
+tsconfig.lib.json
+tsconfig.spec.json
+eslint.config.mjs
+project.json
+jest.config.ts
+vitest.config.ts
+
+# Build artifacts
+*.tsbuildinfo
+node_modules/
+
+# Documentation (except README)
+docs/
+examples/
+*.md
+!README.md
+
+# Development configuration
+.nx/
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+.parcel-cache/
