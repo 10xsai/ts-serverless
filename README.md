@@ -323,4 +323,4 @@ MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ---
 
-**Built with ❤️ by the X42AI Team**
+**Built with ❤️ by the 10XSAI**

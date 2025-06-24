@@ -193,7 +193,7 @@ npm publish
 
 ## Support
 
-For issues with publishing, contact the X42AI development team or check:
+For issues with publishing, contact the 10XSAI development team or check:
 
 - [npm documentation](https://docs.npmjs.com/)
 - [Nx publishing guide](https://nx.dev/recipes/nx-release/publish-libraries)
